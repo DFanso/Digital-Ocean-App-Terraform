@@ -1,0 +1,36 @@
+# Provider Configuration
+do_token = "your-do-token-here"
+
+# Environment Configuration
+environment = "staging"  # or "production"
+
+# Region Configuration
+region = "nyc3"  # Change if needed
+
+# Repository Configuration
+backend_repo_url  = "https://github.com/your-org/backend.git"
+frontend_repo_url = "https://github.com/your-org/frontend.git"
+
+# Optional: Override default instance sizes
+# instance_sizes = {
+#   staging = {
+#     api = "basic-xs"
+#     web = "basic-xs"
+#   }
+#   production = {
+#     api = "professional-s"
+#     web = "professional-s"
+#   }
+# }
+
+# Optional: Override default instance counts
+# instance_counts = {
+#   staging = {
+#     api = 1
+#     web = 1
+#   }
+#   production = {
+#     api = 3
+#     web = 3
+#   }
+# }
